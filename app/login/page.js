@@ -22,7 +22,7 @@ const page = () => {
     <ToastContainer/>
     <div className='flex flex-col gap-8 justify-center items-center w-full min-h-screen p-8 rounded-md bg-cover bg-center bg-no-repeat' style={{ backgroundImage: "url('/login.jpg')" }}>
 
-      <div className='flex flex-col items-center my-5'>
+      <div className='flex flex-col items-center my-5 text-center'>
         <h1 className='text-7xl font-bold text-white'>Welcome back!</h1>
         <h3 className='text-gray-400'>Login to your BitTree</h3>
       </div>
