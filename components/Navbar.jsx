@@ -14,12 +14,12 @@ const Navbar = () => {
 
   return (
     <>
-    <img className='absolute top-8 left-8 h-4 md:hidden' src="/logo2.svg" alt="" />
+    <img className='absolute top-12 left-8 h-8 md:hidden' src="/logo2.svg" alt="" />
       {showNav && <nav className='bg-white  md:w-[90vw] mx-auto top-12 right-[4vw] rounded-full p-1 lg:p-4 fixed flex justify-between'>
 
         {/* <img className='block md:hidden' src="/menu.svg" alt="" /> */}
 
-        <button id="dropdownDefaultButton" onClick={() => setshowDropDown(!showDropDown)} onBlur={() => { setTimeout(() => { setshowDropDown(false) }, 300); }} data-dropdown-toggle="dropdownDelay" data-dropdown-delay="500" data-dropdown-trigger="hover" className="md:hidden text-white bg-white hover:bg-slate-400 font-medium rounded-lg text-sm px-1 py-1 text-center inline-flex items-center" type="button"><img className='h-3' src="/menu.svg" alt="" />
+        <button id="dropdownDefaultButton" onClick={() => setshowDropDown(!showDropDown)} onBlur={() => { setTimeout(() => { setshowDropDown(false) }, 300); }} data-dropdown-toggle="dropdownDelay" data-dropdown-delay="500" data-dropdown-trigger="hover" className="md:hidden text-white bg-white hover:bg-slate-400 font-medium rounded-lg text-sm px-1 py-1 text-center inline-flex items-center" type="button"><img className='h-6' src="/menu.svg" alt="" />
         </button>
 
           {/* <!-- Dropdown menu --> */}
