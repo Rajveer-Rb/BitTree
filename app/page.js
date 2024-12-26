@@ -21,9 +21,9 @@ export default function Home() {
     <>
       <ToastContainer />
       <main>
-        <section className='bg-[#254f1a] flex flex-col justify-center items-center gap-20 min-h-screen md:gap-10 md:justify-start md:min-h-[130vh] lg:grid lg:grid-cols-2 px-10'>
+        <section className='bg-[#254f1a] flex flex-col justify-center items-center gap-20 min-h-screen md:gap-10 md:justify-start md:min-h-[130vh] lg:grid lg:grid-cols-2 pr-7'>
 
-          <div className="flex flex-col gap-2 justify-center ml-[6vw] mt-28 md:mt-64 lg:mt-0">
+          <div className="flex flex-col gap-2 justify-center md:items-start ml-[6vw] mt-52 md:mt-64 lg:mt-0">
 
             <p className="text-yellow-300 font-bold text-4xl md:text-6xl">Everyhing you are.</p>
             <p className="text-yellow-300 font-bold text-4xl md:text-6xl">In one, simple link in </p>
@@ -41,7 +41,7 @@ export default function Home() {
           </div>
 
           <div className="md:flex flex-col items-center justify-center mr-[6vw]">
-            <img className="h-80 lg:h-full" src="/sec1.png" alt="" />
+            <img className="h-full md:h-[50%]" src="/sec1.png" alt="" />
           </div>
         </section>
 
@@ -54,9 +54,9 @@ export default function Home() {
 
           <div className="flex flex-col gap-2 justify-center ml-[6vw] lg:mt-0">
 
-            <p className="text-purple-900 text-4xl md:text-6xl">Create and customize</p>
-            <p className="text-purple-900 text-4xl md:text-6xl">your Linktree in</p>
-            <p className="text-purple-900 text-4xl md:text-6xl">minutes</p>
+            <p className="text-purple-900 font-bold text-3xl md:text-6xl">Create and customize</p>
+            <p className="text-purple-900 font-bold text-3xl md:text-6xl">your Linktree in</p>
+            <p className="text-purple-900 font-bold text-3xl md:text-6xl">minutes</p>
 
             <p className="text-purple-900 text-xl my-4">Connect your TikTok, Instagram, Twitter, website, store, videos, music, podcast, events and more. It all comes together in a link in bio landing page designed to convert.</p>
 
@@ -73,10 +73,10 @@ export default function Home() {
 
           <div className="flex flex-col gap-2 justify-center ml-[6vw] mt-28 md:mt-64 lg:mt-0">
 
-            <p className="text-purple-200 text-4xl md:text-6xl">Share your Linktree</p>
-            <p className="text-purple-200 text-4xl md:text-6xl">from your Instagram</p>
-            <p className="text-purple-200 text-4xl md:text-6xl">Tiktok, Twitter and</p>
-            <p className="text-purple-200 text-4xl md:text-6xl">other bios</p>
+            <p className="text-purple-200 font-bold text-3xl md:text-6xl">Share your Linktree</p>
+            <p className="text-purple-200 font-bold text-3xl md:text-6xl">from your Instagram</p>
+            <p className="text-purple-200 font-bold text-3xl md:text-6xl">Tiktok, Twitter and</p>
+            <p className="text-purple-200 font-bold text-3xl md:text-6xl">other bios</p>
 
             <p className="text-purple-200 text-xl my-4">Add your unique Linktree URL to all the platforms and places you find your audience. Then use your QR code to drive your offline traffic online.</p>
 
@@ -88,7 +88,7 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col items-center justify-center mr-[6vw]">
-            <img className="mt-20 md:mt-0" src="/sec3.png" alt="" />
+            <img className="md:h-full md:mt-0" src="/sec3.png" alt="" />
           </div>
 
         </section>
